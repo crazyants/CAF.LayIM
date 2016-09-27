@@ -48,8 +48,20 @@
       <HintPath>..\packages\MongoDB.Driver.Core.2.3.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,11 +70,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="Cache\DefaultCache.cs" />
+    <Compile Include="Cache\ICache.cs" />
+    <Compile Include="Data\BaseDataProviderManager.cs" />
+    <Compile Include="Data\DataSettings.cs" />
+    <Compile Include="Data\DataSettingsHelper.cs" />
+    <Compile Include="Data\DataSettingsManager.cs" />
+    <Compile Include="Data\IDataProvider.cs" />
+    <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Domain\ApplicationSettings.cs" />
+    <Compile Include="Domain\Attachment.cs" />
+    <Compile Include="Domain\ChatClient.cs" />
+    <Compile Include="Domain\ChatMessage.cs" />
+    <Compile Include="Domain\ChatRoom.cs" />
+    <Compile Include="Domain\ChatUser.cs" />
+    <Compile Include="Domain\ChatUserIdentity.cs" />
+    <Compile Include="Domain\ChatUserPreferences.cs" />
+    <Compile Include="Domain\Notification.cs" />
+    <Compile Include="Domain\Settings.cs" />
+    <Compile Include="Infrastructure\Constants.cs" />
+    <Compile Include="Infrastructure\HttpServerUtility.cs" />
+    <Compile Include="Infrastructure\PrincipalExtensions.cs" />
+    <Compile Include="LanguageResources.Designer.cs" />
+    <Compile Include="UploadHandlers\IUploadHandler.cs" />
+    <Compile Include="UploadHandlers\LocalFileSystemStorageHandler.cs" />
+    <Compile Include="UploadHandlers\UploadProcessor.cs" />
+    <Compile Include="UploadHandlers\UploadResult.cs" />
+    <Compile Include="Domain\UserStatus.cs" />
+    <Compile Include="Infrastructure\CryptoHelper.cs" />
+    <Compile Include="Infrastructure\SafeCollection.cs" />
+    <Compile Include="Infrastructure\StringExtensions.cs" />
+    <Compile Include="IPagedList.cs" />
+    <Compile Include="NopException.cs" />
+    <Compile Include="PagedList.cs" />
+    <Compile Include="ParentEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LanguageResources.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
