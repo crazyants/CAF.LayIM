@@ -13,8 +13,8 @@ namespace CAF.IM.Core.Domain
         public string ContentType { get; set; }
         public long Size { get; set; }
 
-        public int RoomKey { get; set; }
-        public int OwnerKey { get; set; }
+        public string RoomKey { get; set; }
+        public string OwnerKey { get; set; }
         public DateTimeOffset When { get; set; }
 
         public virtual ChatRoom Room { get; set; }

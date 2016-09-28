@@ -1,0 +1,29 @@
+﻿@using CAF.IM.Web;
+@using CAF.IM.Core;
+@using CAF.IM.Web.Infrastructure;
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+  </head>
+<body>
+    <div class="container">
+        <div id="login">
+            <div class="login-header">
+                <div class="banner" role="banner">
+                    <h1>Chat</h1>
+                </div>
+            </div>
+            <div class="login-body">
+                @Html.AlertMessages()
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")"></script>
+   
+</body>
+</html>

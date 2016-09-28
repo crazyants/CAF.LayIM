@@ -70,7 +70,7 @@ namespace CAF.IM.Core.Domain
                 }
                 else if (settings.LocalFileSystemStoragePath.StartsWith(AppDomain.CurrentDomain.SetupInformation.ApplicationBase, StringComparison.OrdinalIgnoreCase))
                 {
-                    errors.Add("LocalFileSystemStoragePath", "The path must not be under the JabbR root.");
+                    errors.Add("LocalFileSystemStoragePath", "The path must not be under the Chat root.");
                 }
             }
 

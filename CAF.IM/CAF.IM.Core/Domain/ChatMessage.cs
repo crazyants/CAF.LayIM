@@ -21,8 +21,8 @@ namespace CAF.IM.Core.Domain
         // After content providers run this is updated with the content
         public string HtmlContent { get; set; }
 
-        public int? RoomKey { get; set; }
-        public int? UserKey { get; set; }
+        public string RoomKey { get; set; }
+        public string UserKey { get; set; }
 
         // Notifications
         public string ImageUrl { get; set; }

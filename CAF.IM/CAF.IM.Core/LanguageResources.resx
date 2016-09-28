@@ -259,7 +259,7 @@
     <value>Local File System Storage Uri Prefix</value>
   </data>
   <data name="Administration_LocalFileSystemStorageUriPrefix_PlaceHolder" xml:space="preserve">
-    <value>http://static.jabbr.net/files/</value>
+    <value>http://static.Chat.net/files/</value>
   </data>
   <data name="Administration_Encryption" xml:space="preserve">
     <value>Encryption</value>
@@ -373,7 +373,7 @@
     <value>Last week</value>
   </data>
   <data name="Client_DeploymentInfo" xml:space="preserve">
-    <value>Deployed from &lt;a target="_blank" href="https://github.com/JabbR/JabbR/commit/{0}" title="View the commit"&gt;{1}&lt;/a&gt; on &lt;a target="_blank" href="https://github.com/JabbR/JabbR/branches/{2}" title="View the branch"&gt;{2}&lt;/a&gt; at {3}.</value>
+    <value>Deployed from &lt;a target="_blank" href="https://github.com/Chat/Chat/commit/{0}" title="View the commit"&gt;{1}&lt;/a&gt; on &lt;a target="_blank" href="https://github.com/Chat/Chat/branches/{2}" title="View the branch"&gt;{2}&lt;/a&gt; at {3}.</value>
   </data>
   <data name="Client_DisplayHelp" xml:space="preserve">
     <value>Display Help</value>
@@ -397,16 +397,16 @@
 &lt;p&gt;To use a command, enter it into the chat message textbox.&lt;/p&gt;</value>
   </data>
   <data name="Client_Help" xml:space="preserve">
-    <value>JabbR Help</value>
+    <value>Chat Help</value>
   </data>
-  <data name="Client_JabbrError" xml:space="preserve">
-    <value>Jabbr Error</value>
+  <data name="Client_ChatError" xml:space="preserve">
+    <value>Chat Error</value>
   </data>
-  <data name="Client_JabbrErrorMessage" xml:space="preserve">
+  <data name="Client_ChatErrorMessage" xml:space="preserve">
     <value>There was an error contacting the server, please refresh in a few minutes.</value>
   </data>
-  <data name="Client_JabbrSettings" xml:space="preserve">
-    <value>JabbR Settings</value>
+  <data name="Client_ChatSettings" xml:space="preserve">
+    <value>Chat Settings</value>
   </data>
   <data name="Client_LoadingPreviousMessages" xml:space="preserve">
     <value>Loading previous messages...</value>
@@ -442,7 +442,7 @@
     <value>Popup Notifications</value>
   </data>
   <data name="Client_RefreshRequiredHeader" xml:space="preserve">
-    <value>JabbR Update</value>
+    <value>Chat Update</value>
   </data>
   <data name="Client_RefreshRequiredNotification" xml:space="preserve">
     <value>Refresh your browser to get the latest version.  Auto update will take place in 15 seconds.</value>
@@ -809,7 +809,7 @@
     <value>Grant a user permission to access a private room. Only works if you're an owner of that room.</value>
   </data>
   <data name="Ban_CommandInfo" xml:space="preserve">
-    <value>Ban a user from JabbR!</value>
+    <value>Ban a user from Chat!</value>
   </data>
   <data name="Broadcast_CommandInfo" xml:space="preserve">
     <value>Send a message to all users in all rooms. Only works if you're an administrator.</value>
@@ -830,7 +830,7 @@
     <value>(plus {0} hidden... click to expand)</value>
   </data>
   <data name="Chat_InitialMessages" xml:space="preserve">
-    <value>Welcome to JabbR
+    <value>Welcome to Chat
 Use ? or type /? to display the FAQ and list of commands.</value>
   </data>
   <data name="Chat_PrivateMessage" xml:space="preserve">
@@ -1022,13 +1022,13 @@ Use ? or type /? to display the FAQ and list of commands.</value>
     <value>Status: Connected</value>
   </data>
   <data name="Client_Disconnected" xml:space="preserve">
-    <value>The connection to JabbR has been lost, trying to reconnect.</value>
+    <value>The connection to Chat has been lost, trying to reconnect.</value>
   </data>
   <data name="Client_OtherRooms" xml:space="preserve">
     <value>Other Rooms</value>
   </data>
   <data name="Client_Reconnecting" xml:space="preserve">
-    <value>The connection to JabbR has been temporarily lost, trying to reconnect.</value>
+    <value>The connection to Chat has been temporarily lost, trying to reconnect.</value>
   </data>
   <data name="Client_ShortcutLobby" xml:space="preserve">
     <value>Go to the Lobby.</value>
@@ -1085,7 +1085,7 @@ Use ? or type /? to display the FAQ and list of commands.</value>
     <value>Make a room private. Only works if you're the creator of that room.</value>
   </data>
   <data name="Logout_CommandInfo" xml:space="preserve">
-    <value>Log this client out from JabbR and remove browser cookie.</value>
+    <value>Log this client out from Chat and remove browser cookie.</value>
   </data>
   <data name="Me_CommandInfo" xml:space="preserve">
     <value>Type /me 'does anything'. Sends a message to everyone in the room.</value>

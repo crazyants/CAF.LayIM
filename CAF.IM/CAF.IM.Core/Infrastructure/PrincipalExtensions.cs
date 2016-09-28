@@ -28,9 +28,9 @@ namespace CAF.IM.Core.Infrastructure
             {
                 foreach (var identity in claimsPrincipal.Identities)
                 {
-                    if (identity.AuthenticationType == Constants.JabbRAuthType)
+                    if (identity.AuthenticationType == Constants.ChatAuthType)
                     {
-                        Claim idClaim = identity.FindFirst(JabbRClaimTypes.Identifier);
+                        Claim idClaim = identity.FindFirst(ChatClaimTypes.Identifier);
 
                         if (idClaim != null)
                         {
@@ -92,7 +92,7 @@ namespace CAF.IM.Core.Infrastructure
 
         public static bool HasPartialIdentity(this ClaimsPrincipal principal)
         {
-            return !String.IsNullOrEmpty(principal.GetClaimValue(JabbRClaimTypes.PartialIdentity));
+            return !String.IsNullOrEmpty(principal.GetClaimValue(ChatClaimTypes.PartialIdentity));
         }
     }
 }

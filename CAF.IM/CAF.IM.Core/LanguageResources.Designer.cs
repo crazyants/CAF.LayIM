@@ -39,7 +39,7 @@
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("JabbR.LanguageResources", typeof(LanguageResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Chat.LanguageResources", typeof(LanguageResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -640,7 +640,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://static.jabbr.net/files/.
+        ///   Looks up a localized string similar to http://static.Chat.net/files/.
         /// </summary>
         public static string Administration_LocalFileSystemStorageUriPrefix_PlaceHolder {
             get {
@@ -946,7 +946,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ban a user from JabbR!.
+        ///   Looks up a localized string similar to Ban a user from Chat!.
         /// </summary>
         public static string Ban_CommandInfo {
             get {
@@ -1027,7 +1027,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome to JabbR
+        ///   Looks up a localized string similar to Welcome to Chat
         ///Use ? or type /? to display the FAQ and list of commands..
         /// </summary>
         public static string Chat_InitialMessages {
@@ -1829,7 +1829,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Deployed from &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/JabbR/JabbR/commit/{0}&quot; title=&quot;View the commit&quot;&gt;{1}&lt;/a&gt; on &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/JabbR/JabbR/branches/{2}&quot; title=&quot;View the branch&quot;&gt;{2}&lt;/a&gt; at {3}..
+        ///   Looks up a localized string similar to Deployed from &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Chat/Chat/commit/{0}&quot; title=&quot;View the commit&quot;&gt;{1}&lt;/a&gt; on &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/Chat/Chat/branches/{2}&quot; title=&quot;View the branch&quot;&gt;{2}&lt;/a&gt; at {3}..
         /// </summary>
         public static string Client_DeploymentInfo {
             get {
@@ -1838,7 +1838,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The connection to JabbR has been lost, trying to reconnect..
+        ///   Looks up a localized string similar to The connection to Chat has been lost, trying to reconnect..
         /// </summary>
         public static string Client_Disconnected {
             get {
@@ -1913,7 +1913,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to JabbR Help.
+        ///   Looks up a localized string similar to Chat Help.
         /// </summary>
         public static string Client_Help {
             get {
@@ -1922,29 +1922,29 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Jabbr Error.
+        ///   Looks up a localized string similar to Chat Error.
         /// </summary>
-        public static string Client_JabbrError {
+        public static string Client_ChatError {
             get {
-                return ResourceManager.GetString("Client_JabbrError", resourceCulture);
+                return ResourceManager.GetString("Client_ChatError", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to There was an error contacting the server, please refresh in a few minutes..
         /// </summary>
-        public static string Client_JabbrErrorMessage {
+        public static string Client_ChatErrorMessage {
             get {
-                return ResourceManager.GetString("Client_JabbrErrorMessage", resourceCulture);
+                return ResourceManager.GetString("Client_ChatErrorMessage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to JabbR Settings.
+        ///   Looks up a localized string similar to Chat Settings.
         /// </summary>
-        public static string Client_JabbrSettings {
+        public static string Client_ChatSettings {
             get {
-                return ResourceManager.GetString("Client_JabbrSettings", resourceCulture);
+                return ResourceManager.GetString("Client_ChatSettings", resourceCulture);
             }
         }
         
@@ -2075,7 +2075,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The connection to JabbR has been temporarily lost, trying to reconnect..
+        ///   Looks up a localized string similar to The connection to Chat has been temporarily lost, trying to reconnect..
         /// </summary>
         public static string Client_Reconnecting {
             get {
@@ -2084,7 +2084,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to JabbR Update.
+        ///   Looks up a localized string similar to Chat Update.
         /// </summary>
         public static string Client_RefreshRequiredHeader {
             get {
@@ -2725,7 +2725,7 @@
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Log this client out from JabbR and remove browser cookie..
+        ///   Looks up a localized string similar to Log this client out from Chat and remove browser cookie..
         /// </summary>
         public static string Logout_CommandInfo {
             get {

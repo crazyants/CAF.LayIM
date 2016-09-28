@@ -4,16 +4,16 @@ namespace CAF.IM.Core.Infrastructure
 {
     public static class Constants
     {
-        public static readonly string AuthResultCookie = "jabbr.authResult";
-        public static readonly Version JabbRVersion = typeof(Constants).Assembly.GetName().Version;
-        public static readonly string JabbRAuthType = "JabbR";
+        public static readonly string AuthResultCookie = "Chat.authResult";
+        public static readonly Version ChatVersion = typeof(Constants).Assembly.GetName().Version;
+        public static readonly string ChatAuthType = "Chat";
     }
 
-    public static class JabbRClaimTypes
+    public static class ChatClaimTypes
     {
-        public const string Identifier = "urn:jabbr:id";
-        public const string Admin = "urn:jabbr:admin";
-        public const string PartialIdentity = "urn:jabbr:partialid";
+        public const string Identifier = "urn:Chat:id";
+        public const string Admin = "urn:Chat:admin";
+        public const string PartialIdentity = "urn:Chat:partialid";
     }
 
     public static class AcsClaimTypes

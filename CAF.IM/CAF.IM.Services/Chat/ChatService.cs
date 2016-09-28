@@ -31,7 +31,7 @@ namespace CAF.IM.Services
         private const int TopicMaximumLength = 80;
         private const int WelcomeMaximumLength = 200;
 
-        // To migrate from previous versions of Jabbr
+        // To migrate from previous versions of Chat
         private static readonly IDictionary<string, string> LegacyCountryConversion = new Dictionary<string, string>
                                                                                           {
                                                                                               {"g1", "england"},
